@@ -13,7 +13,7 @@ import SponsorsGroup from './SponsorsGroup.vue';
       <br />JavaScript 框架
     </h1>
     <p class="description">
-      一款用于构建 Web 界面，易学易用，性能出色且功能丰富的框架。
+      易学易用，性能出色，适用场景丰富的 Web 前端框架。
     </p>
     <p class="actions">
       <!-- NOTE: hide the home video -->
@@ -57,7 +57,7 @@ import SponsorsGroup from './SponsorsGroup.vue';
     <div class="vt-box">
       <h2>易学易用</h2>
       <p>
-        基于标准 HTML、CSS 和 JavaScript 构建，拥有直观的 API 和世界一流的文档。
+        基于标准 HTML、CSS 和 JavaScript 构建，提供容易上手的 API 和一流的文档。
       </p>
     </div>
     <div class="vt-box">
@@ -67,9 +67,9 @@ import SponsorsGroup from './SponsorsGroup.vue';
       </p>
     </div>
     <div class="vt-box">
-      <h2>功能丰富</h2>
+      <h2>灵活多变</h2>
       <p>
-        拥有丰富的、可渐进式集成的生态系统，可以根据规模在仅使用一个库和使用整套框架间切换自如。
+        丰富的、可渐进式集成的生态系统，可以根据应用规模在库和框架间切换自如。
       </p>
     </div>
   </section>
