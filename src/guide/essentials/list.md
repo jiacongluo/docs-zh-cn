@@ -290,18 +290,18 @@ Vue 默认按照“就地更新”的策略来更新通过 `v-for` 渲染的元�
 可以直接在组件上使用 `v-for`，和其他任何一般的元素没有区别 (别忘记提供一个 `key`)：
 
 ```vue-html
-<my-component v-for="item in items" :key="item.id"></my-component>
+<MyComponent v-for="item in items" :key="item.id" />
 ```
 
 但是，这不会自动将任何数据传递给组件，因为组件有自己独立的作用域。为了将迭代后的数据传递到组件中，我们还是应该使用 prop：
 
 ```vue-html
-<my-component
+<MyComponent
   v-for="(item, index) in items"
   :item="item"
   :index="index"
   :key="item.id"
-></my-component>
+/>
 ```
 
 不自动将 `item` 注入组件的原因是，这会使组件与 `v-for` 的工作方式紧密耦合。明确其数据的来源可以使组件在其他情况下重用。
